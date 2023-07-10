@@ -12,6 +12,8 @@ body{
 
 #navbar a:hover{
     color:#223546;
+    text-shadow: 0.5px 0.5px 10px #aec0c7;
+    transition: all 0.4s ease;
 }
 
 
@@ -61,6 +63,7 @@ body{
 
 #signup:hover{
     background-color:#223546;
+    transition: all 0.3s ease;
 }
 
 #appointment{
@@ -77,6 +80,7 @@ body{
 
 #appointment:hover{
     background-color:#223546;
+    transition: all 0.3s ease;
 }
 
 #navbar ul{
@@ -93,6 +97,7 @@ body{
     text-decoration:none;
     font-size:18px;
     padding-right:25px;
+    /* transition: all 0.3s ease; */
 }
 
 
@@ -159,16 +164,21 @@ body{
     border-radius:5px;
     box-shadow: 7px 7px 10px #8f9394;
     text-align:center;
+    transition: transform .5s;
+}
+
+.card:hover{
+    transform: scale(1.1);
 }
 
 .cards .card h2{
     padding-top:10px;
-    padding-bottom:15px;
+    padding-bottom:px;
 }
 
 .about{
-    padding-top:100px;
-    padding-bottom:200px;
+    padding-top:175px;
+    padding-bottom:175px;
     display:flex;
     width:80%;
     margin:auto;
@@ -188,7 +198,11 @@ body{
 }
 
 #about-desc p{
-    padding-bottom:30px;
+    padding-bottom:0px;
+}
+
+.aboutcards{
+    padding-top:25px;
 }
 
 .about-card-container{
@@ -196,18 +210,74 @@ body{
     display:flex;
     justify-content:center;
 }
+
+
 #about-desc .about-card{
     display:flex;
-    background-color:grey;
-    width:40%;
+    background-color:#5d8fa8;
+    color:white;
+    width:35%;
     margin-right:10px;
     margin-bottom:10px;
 
-    padding:3px;
-    justify-content:center;
+    text-align:center;
     border-radius:5px;
+}
+
+.about-card:hover{
+    box-shadow: 2px 2px 20px 0px #5d8fa8;
 }
 
 .about #about-img img{
     border-radius:10px;
+}
+
+.information{
+    display:flex;
+    flex-direction:column;
+    background-color:#E5EFF3;
+    height:650px;
+    margin:0px;
+}
+
+.info-header{
+    background-color:#223546;
+    color:white;
+    /* height:150px; */
+    margin:0px;
+    padding:50px 150px;
+}
+
+.info-header h1{
+    padding-bottom:20px;
+}
+
+.info-body{
+    background-color:#E5EFF3;
+    height:300px;
+    margin:0px 125px;
+    padding:50px;
+}
+
+.info-body p, .info-body ul{
+    padding:20px;
+}
+
+.info-form{
+    background-color:pink;
+    height:450px;
+    margin:-488px 125px;
+    margin-left:auto;
+    padding:30px;
+    padding-bottom:600px;
+}
+
+.info-form h3{
+    background-color:#5d8fa8;
+    margin:-30px;
+    padding:20px 30px;
+}
+
+.info-form .form-fill{
+    padding-top:50px;
 }
