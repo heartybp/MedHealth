@@ -1,0 +1,49 @@
+.information{
+    display:flex;
+    flex-direction:column;
+    background-color:#E5EFF3;
+    height:650px;
+    margin:0px;
+}
+
+.info-header{
+    background-color:#223546;
+    color:white;
+    /* height:150px; */
+    margin:0px;
+    padding:50px 150px;
+}
+
+.info-header h1{
+    padding-bottom:20px;
+}
+
+.info-body{
+    background-color:#E5EFF3;
+    height:300px;
+    margin:0px 125px;
+    padding:50px;
+}
+
+.info-body p, .info-body ul{
+    padding:20px;
+}
+
+.info-form{
+    background-color:pink;
+    height:450px;
+    margin:-488px 125px;
+    margin-left:auto;
+    padding:30px;
+    padding-bottom:600px;
+}
+
+.info-form h3{
+    background-color:#5d8fa8;
+    margin:-30px;
+    padding:20px 30px;
+}
+
+.info-form .form-fill{
+    padding-top:50px;
+}

@@ -37,7 +37,7 @@
                 <p>Experience a transformative journey towards optimal well-being with our cutting-edge health solutions, tailored to empower you to live your best, vibrant life.  
                 </p>
 
-                <button id="appointment" type="button">BOOK AN APPOINTMENT</button>
+                <button id="appointment" type="button"><a href=#scroll-here>BOOK AN APPOINTMENT</a></button>
             </section>
     
             <section id="intro-img">
@@ -97,39 +97,80 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
     </div>
+    <p id="scroll-here"></p>
 
-    <div class="information">
+    <div class="info-grid">
+
+        <div class="left1"></div>
+        <div class="left2"></div>
         <div class="info-header">
             <h1>Is MedHealth Right for Me?</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati asperiores facere quae dicta pariatur. Voluptates voluptatibus, excepturi at tempora deserunt tenetur earum, illo quae aut laudantium error repellendus architecto rerum.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati asperiores facere quae dicta pariatur. Voluptates voluptatibus</p>
         </div>
 
-        <div class="info-body">
-            <h2>Get a Free Consultation with Uur Health Experts</h2>
+        <div class="info-form">
+            <!-- <form action="index.html" method="POST"> -->
+                <!-- post is used to add data to a database -->
+                <h2>Fill the Form for an Evaluation!</h2>
+                <div class="fill">
+                    <label>First Name*</label><br>
+                    <input type="text" name="firstName">
+                </div>
+                
+                <div class="fill">
+                    <label>Last Name*</label><br>
+                    <input type="text" name="lastName">
+                </div>
+                
+                <div class="fill">
+                    <label>Email*</label><br>
+                    <input type="email" name="email">
+                </div>
+                
+                <div>
+                    <label>Gender*</label>
+                    <select name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label>Age:*</label>
+                    <input type="number" name="age" value="0">
+                </div>
+                
+                <div>
+                    <label>Birthday:*</label>
+                    <input type="date" name="birthday">
+                </div>
+                <br><br>
+                <input id="submit-form" type="submit" name="submit" value="Schedule My Consultation">
+    
+            </form>
+        </div>
+
+        <div class="right1"></div>
+        <div class="info-about">
+            <br>
+            <h2>Get a Free Consultation with Our Health Experts</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis vel recusandae eos temporibus architecto iste inventore dolorum? Ipsam autem minima delectus odio incidunt, necessitatibus exercitationem, omnis, vitae at deleniti deserunt!</p>
 
-            <h3>Receive a Personalized Healthcare Plan</h3>
+            <br>
+
+            <h2>Receive a Personalized Healthcare Plan</h2>
             <ul>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
                 <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
             </ul>
         </div>
+        <div class="right2"></div>
 
-        <div class="info-form">
-            <h3>Schedule a Free Healthcare Evaluation</h3>
-            <div class="form-fill">
-                <p>first name</p>
-                <p>first name</p>
-                <p>first name</p>
-                <p>first name</p>
-            </div>
-            
-        </div>
     </div>
     
 
