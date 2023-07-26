@@ -167,6 +167,7 @@ html{
 }
 
 .cards .card{
+    width:70%;
     margin:30px;
     background-color:#fafeff;
     padding:15px;
@@ -206,6 +207,11 @@ html{
     font-size:30px;
 }
 
+.services-header p{
+    font-size:18px;
+    color:#3b4f62;
+}
+
 .service-image #service-img{
     height:600px;
     margin-left:50px;
@@ -216,7 +222,7 @@ html{
     text-align:center;
     padding-bottom:10px;
     font-weight:200;
-    color:#212c36;
+    color:#3b4f62;
 }
 
 .service-card p{
@@ -224,7 +230,7 @@ html{
     font-size:15px;
     font-style:italic;
     line-height:1.7em;
-    color:#58748c;
+    color:#384c5d;
 }
 
 .service-image{
@@ -266,22 +272,21 @@ html{
 }
 
 .about-card-container{
-    /* background-color: black; */
     display:flex;
     justify-content:center;
+
 }
 
 
 #about-desc .about-card{
-    display:flex;
     background-color:#5d8fa8;
     color:white;
     width:35%;
     margin-right:10px;
     margin-bottom:10px;
-
-    text-align:center;
     border-radius:5px;
+    padding:3px;
+    text-align:center;
 }
 
 .about-card:hover{
@@ -310,6 +315,10 @@ html{
 .info-grid .info-header,.info-form,.right1,.info-about,.right2,.left1,.left2{
     padding:30px 10px;
     /* border:black 2px solid; */
+}
+
+.info-about{
+    padding-top:15px;
 }
 
 .info-grid h1,h2{
@@ -367,10 +376,6 @@ html{
     background-color:#E5EFF3;
 }
 
-.info-grid .info-form .fill{
-    padding-bottom:15px;
-}
-
 .info-grid .fill input{
     height:30px;
 }
@@ -381,4 +386,8 @@ html{
 
 .info-grid input#submit-form{
     height:40px;
+}
+
+.info-grid .info-form .fill{
+    padding-bottom:20px;
 }
