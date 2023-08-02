@@ -156,6 +156,15 @@ html{
     padding:20px;
 }
 
+#main-footer a{
+    color:#fff;
+}
+
+#main-footer a:hover{
+    text-decoration:none;
+    color:#ecb17a;
+}
+
 .cards{
     margin-top:-90px;
     /* padding-bottom:50px; */
