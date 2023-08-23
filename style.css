@@ -5,7 +5,8 @@
 } 
 
 body{
-    font-family:Arial, Helvetica, sans-serif;
+    /* font-family:Arial, Helvetica, sans-serif; */
+    font-family: 'Rubik', sans-serif;
     font-size:15px;
     line-height:1.5em;
 }
@@ -29,6 +30,8 @@ html{
     position:fixed;
     top:0;
     width:100%;
+    z-index:1;
+    box-shadow: 1px 1px 5px #c7cfd1;
 } 
 
 .logo h1{
@@ -43,7 +46,7 @@ html{
     margin-left:40px;
     overflow:hidden;
     padding-top:5px;
-    margin-right:150px;
+    margin-right:100px;
 }
 
 .container{
@@ -114,7 +117,7 @@ html{
     background-color:#E5EFF3;
     color:#223546;
     padding-top:85px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .hero-section h1{
@@ -153,30 +156,34 @@ html{
     background-color: #333;
     color:#fff;
     text-align: center;
-    padding:20px;
+    padding-top:25px;
+    padding-bottom:15px;
 }
 
 #main-footer a{
-    color:#fff;
+    color:#8fb6df;
+    text-decoration:none;
 }
 
 #main-footer a:hover{
-    text-decoration:none;
-    color:#ecb17a;
+    color:#c8a1de;
 }
 
 .cards{
-    margin-top:-90px;
+    margin-top:-100px;
     /* padding-bottom:50px; */
+    
     display:flex;
 }
 
 .cards .container{
-    width:70%;
+    width:75%;
 }
 
 .cards .card{
-    width:70%;
+    font-size:14px;
+    width:80%;
+    max-height:275px;
     margin:30px;
     background-color:#fafeff;
     padding:15px;
@@ -270,6 +277,7 @@ html{
     display:flex;
     font-size:30px;
     padding-bottom:20px;
+    line-height:1.2em;
 }
 
 #about-desc p{
